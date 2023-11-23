@@ -3,6 +3,7 @@
 Hello, this is a data analytics project, comprising of data cleaning, data preparation and data visualisation activities. Data is extracted from Kaggle, this is also a capstone project for AI100 course with Heicoders Academy.
 
 1. Background
+   
 Getting a HDB is probably one of the biggest financial decisions many Singaporeans have to make, given its exhorbitant cost. Making a wrong decision could set you back in terms of opportunity cost & time value of money.
 
 ![image](https://github.com/wyxlester/ai100_capstone_project/assets/17344234/ecbe90ba-63bc-4cfc-92f7-13c12b6164ea)
@@ -11,10 +12,12 @@ In this project, we seek to build data visualisation to shed light on the HDB re
 
 
 2. Loading the Dataset
+   
 CSV data of Singapore HDB listings (73320 rows × 14 columns) loaded into a nested list, hdb_resale_listings
 
 
-3. Data Cleaning
+4. Data Cleaning
+   
 Write a loop to iterate through the data to perform some cleaning. The data columns we will be cleaning are:
 - floor_area_sqm (convert to float)
 - remaining_lease (extract only the years & convert it to float)
@@ -23,8 +26,10 @@ Write a loop to iterate through the data to perform some cleaning. The data colu
 - latitude (convert to float)
 
 
-4. Data Preparation & Visualisation
+5. Data Preparation & Visualisation
+   
 a. Calculate the Number of Resale Flats in Each Town
+
 b. Visualise the Number of Resale Flats in Each Town
 
 <img width="603" alt="Screenshot 2023-11-23 at 5 41 26 PM" src="https://github.com/wyxlester/ai100_capstone_project/assets/17344234/88f16295-4157-4544-a5f2-80c005d3f36d">
@@ -37,7 +42,9 @@ Young couples upgrading from their initial BTOs in nearby areas (more prevalent 
 Potential for housing appreciation in developing estates like Sengkang and Punggol due to new amenities being developed
 
 c. Calculate the Total Sale Value in Each Town
+
 d. Calculate the Average Resale Value in Each Town
+
 e. Visualise the Average Resale Value in Each Town
 
 <img width="639" alt="Screenshot 2023-11-23 at 5 43 07 PM" src="https://github.com/wyxlester/ai100_capstone_project/assets/17344234/8f844599-f98c-4999-a45a-78c51d3cd1dc">
