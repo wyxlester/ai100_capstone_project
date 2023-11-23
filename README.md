@@ -7,15 +7,12 @@ Getting a HDB is probably one of the biggest financial decisions many Singaporea
 
 ![image](https://github.com/wyxlester/ai100_capstone_project/assets/17344234/ecbe90ba-63bc-4cfc-92f7-13c12b6164ea)
 
-In this project, we seek to build data visualisation to shed light on the HDB resale market, and provide key consideration parameters to help us make better decisions in choosing a:
-
-(1) HDB Resale flat, or
-
-(2) BTO flats that are likely to appreciate in the resale market
+In this project, we seek to build data visualisation to shed light on the HDB resale market, and provide key consideration parameters to help us make better decisions in choosing a HDB Resale flat, or BTO flats that are likely to appreciate in the resale market
 
 
 2. Loading the Dataset
 CSV data of Singapore HDB listings (73320 rows × 14 columns) loaded into a nested list, hdb_resale_listings
+
 
 3. Data Cleaning
 Write a loop to iterate through the data to perform some cleaning. The data columns we will be cleaning are:
@@ -24,6 +21,7 @@ Write a loop to iterate through the data to perform some cleaning. The data colu
 - resale_price (convert to float)
 - longitude (convert to float)
 - latitude (convert to float)
+
 
 4. Data Preparation & Visualisation
 a. Calculate the Number of Resale Flats in Each Town
