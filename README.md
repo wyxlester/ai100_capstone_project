@@ -1,5 +1,4 @@
-# ai100_capstone_project
-**HDB Resale Capstone Project**
+# HDB Resale Capstone Project
 
 Hello, this is a data analytics project, comprising of data cleaning, data preparation and data visualisation activities. Data is extracted from Kaggle, this is also a capstone project for AI100 course with Heicoders Academy.
 
